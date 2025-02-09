@@ -1,0 +1,150 @@
+body {
+ font-family:Arial, Helvetica, sans-serif;
+ background-image: url(blucher_lillianjulsvik_0031-scaled2.jpg);
+ margin:0;
+ padding:0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+
+header {
+background-color: rgb(138, 138, 138);
+height: 130px;
+}
+
+img {
+height: 100px;
+padding:20px;
+}
+
+img:hover {
+cursor: pointer;
+}
+
+ul li {
+display: inline;
+position: relative;
+bottom: 90px;
+}
+
+a {
+color: white;
+text-decoration: none;
+padding:20px;
+position: relative;
+font-size: 30px;
+}
+
+a:hover {
+color: #1f1f1f;
+text-decoration: underline;
+}
+
+.upcomingblack {
+color: black;
+}
+
+.topnav {
+position: relative;
+float:inline-end;
+bottom: 140px;
+right: 20px;
+}
+
+.upcoming-header {
+ position: absolute;
+ font-family:serif;
+ font-size: 100px;
+ color:#1f1f1f;
+ left: 65%;
+ top:20%;
+}
+
+.expected-paragraph {
+ position:absolute;
+ top:37%;
+ color: red;
+ left:65%;
+}
+
+.movie-info-upcoming {
+ position: absolute;
+ font-family: serif;
+ left:65%;
+ top:43%;
+ font-size:xx-large;
+}
+
+.upcomingblack {
+ color: black;
+}
+
+.topnav {
+ position: relative;
+ float:inline-end;
+ bottom: 140px;
+ right: 20px;
+}
+
+input[type="text"] {
+ padding:10px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+     
+    body {
+     background-image: url(blucher_lillianjulsvik_0031-scaled2.jpg);
+     top: 1000px;
+     background-color: #1f1f1f;
+     }
+
+    ul li {
+     display: block;
+     position: relative;
+     top: 50px;
+     padding: 20px;
+     right: 20px;
+     }
+
+     .topnav {
+      position: relative;
+      right: 80px;
+      bottom: 320px;
+      }
+
+
+     .upcoming-header {
+      position:relative;
+      font-family:serif;
+      font-size: 50px;
+      color:white;
+      left: 20px;
+      top:320px;
+      }
+      
+      .expected-paragraph {
+       position:relative;
+       top:300px;
+       color: red;
+       left:20px;
+      }
+
+      .movie-info-upcoming {
+       position:relative;
+       font-family: serif;
+       color: white;
+       left:5px;
+       font-size:29px;
+       top: 300px;
+      }
+      
+      .upcomingblack {
+       color:#B573F8;
+       }
+}
